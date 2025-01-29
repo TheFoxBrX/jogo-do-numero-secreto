@@ -19,7 +19,7 @@ function verificarChute() {
     let palavraTentativas = tentativas > 1 ? "tentativas" : "tentativa";
     let mensagemDeChute = `Você acertou o número secreto com ${tentativas} ${palavraTentativas}!`;
     if (chute == numeroAleatorio){
-        mudarTextoDaTag('h1', 'Parabens!');
+        mudarTextoDaTag('h1', 'Parabéns!');
         mudarTextoDaTag('p', mensagemDeChute);
         document.getElementById('reiniciar').removeAttribute('disabled');
     }
